@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bloco1{
+    background: royalblue;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+.bloco2{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    margin-top: 32px;
+}
+.resultadoCep{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+}
+button{
+    padding: 5px;
+    color: white;
+    border: 1px solid royalblue;
+    border-radius: 2px;
+    background: royalblue;
+    cursor: pointer;
+}
